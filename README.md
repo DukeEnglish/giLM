@@ -1,7 +1,9 @@
-# The code of BTree and TRIE were implemented by Bogoychev. The query on GPU is different from gLM and is divided into two parts: parallel search then parallel traversal. If you have any question, please connect me at (ljyduke@gamil.com) without hesitation.
+
 # giLM 
 giLM is a the GPU language model based on gLM( he  details about the design and implementation can be found in this [paper](http://aclweb.org/anthology/P/P16/P16-1183.pdf), published at ACL 2016.)
 giLM was designed for MODLMs
+
+The codes of BTree and TRIE were implemented by Bogoychev but parts of them are useless for giLM because giLM actually does not need backoff parameter. The query on GPU is different from gLM and is divided into two parts: parallel search then parallel traversal. If you have any question, please connect me at (ljyduke@gamil.com) without hesitation.
 
 ## Build
 ```bash
