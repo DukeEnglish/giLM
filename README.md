@@ -39,3 +39,11 @@ cd path_to_gilm/release_build/bin
 ```
 path_to_binary_lm_dir : the directory of binary_lm
 path_to_test_file: the batch query file (which contains all the sentence you want to query. For single sentence you should use interactive query)
+
+# Results
+From the results
+of experiments, giLM can satisfy the requirements of MODLMs. Compared with
+existing GPU language model, it outperforms over the requirements of MODLMs.
+This project is expected to contribute a efficient queryable language model on GPU
+for MODLMs and as a foundation to improve the applications where MODLMs can
+be applied, such as neural machine translation.
